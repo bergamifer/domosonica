@@ -18,12 +18,12 @@ Contributing:
 
 We welcome contributions from artists, technologists, educators, and anyone interested in pushing the boundaries of sound art. Please see our Contribution Guidelines for details on how to get involved.
 
+Located in:
+
+CheLA (Centro Hipermediático Experimental Latinoamericano) is a cultural center located in Buenos Aires, Argentina. It is known for its focus on experimental and multimedia arts, technology, and cultural activities. CheLA provides a space for artists, creators, and researchers to explore various forms of art and technology.
+
 License:
 
 Domosonica is released under the MIT License. Feel free to use, modify, and share it within the terms of the license.
-
-Contact:
-
-For questions, feedback, or collaboration inquiries, please contact Your Name.
 
 Feel free to customize the provided information, replace placeholders with actual links, and tailor it to the specific details of your Domosonica project. This README file should serve as an informative and engaging introduction to your project for potential contributors and users.
