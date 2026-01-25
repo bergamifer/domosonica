@@ -6,7 +6,7 @@ Domosonica is an experimental sound spatialization project that aims to create a
 
 This repository contains the design files for the WiFi-enabled audio streaming board, the core electronic component of the Domosonica project.
 
-![Board Render](render/Modulo-completo4.png)
+![Board Render](render/Modulo-completo4.jpg)
 
 ![Board Render Alternative View](render/Modulo-completo5.jpg)
 
