@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0104
+U 1 1 5F656C27
+P 4700 3800
+F 0 "#PWR0104" H 4700 3550 50  0001 C CNN
+F 1 "GND" H 4705 3627 50  0000 C CNN
+F 2 "" H 4700 3800 50  0001 C CNN
+F 3 "" H 4700 3800 50  0001 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F658B19
+P 4800 3800
+F 0 "#PWR0105" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4805 3627 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5F65B033
+P 4700 3200
+F 0 "#PWR0106" H 4700 3050 50  0001 C CNN
+F 1 "+12V" H 4715 3373 50  0000 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F6640EC
+P 6750 3750
+F 0 "C4" V 6498 3750 50  0000 C CNN
+F 1 "0.22uF" V 6589 3750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6788 3600 50  0001 C CNN
+F 3 "~" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F666AFF
+P 6850 2650
+F 0 "R2" V 6643 2650 50  0000 C CNN
+F 1 "10k" V 6734 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 2650 50  0001 C CNN
+F 3 "~" H 6850 2650 50  0001 C CNN
+	1    6850 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F66FAAA
+P 6150 3050
+F 0 "R1" V 5943 3050 50  0000 C CNN
+F 1 "10k" V 6034 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3050 50  0001 C CNN
+F 3 "~" H 6150 3050 50  0001 C CNN
+	1    6150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5F67219F
+P 6550 3200
+F 0 "C3" H 6350 3250 50  0000 L CNN
+F 1 "1uF" H 6350 3150 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6588 3050 50  0001 C CNN
+F 3 "~" H 6550 3200 50  0001 C CNN
+	1    6550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5F6733E5
+P 7650 2800
+F 0 "C6" H 7450 2850 50  0000 L CNN
+F 1 "10uF" H 7450 2750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7688 2650 50  0001 C CNN
+F 3 "~" H 7650 2800 50  0001 C CNN
+	1    7650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5F681252
+P 6550 3350
+F 0 "#PWR0107" H 6550 3100 50  0001 C CNN
+F 1 "GND" H 6555 3177 50  0000 C CNN
+F 2 "" H 6550 3350 50  0001 C CNN
+F 3 "" H 6550 3350 50  0001 C CNN
+	1    6550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F682D30
+P 7650 2950
+F 0 "#PWR0108" H 7650 2700 50  0001 C CNN
+F 1 "GND" H 7655 2777 50  0000 C CNN
+F 2 "" H 7650 2950 50  0001 C CNN
+F 3 "" H 7650 2950 50  0001 C CNN
+	1    7650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2650 7300 2650
+Wire Wire Line
+	7300 2650 7300 3450
+Wire Wire Line
+	6000 3050 5800 3050
+Wire Wire Line
+	7300 2650 7650 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7200 3050 7200 3450
+Wire Wire Line
+	6550 3050 7200 3050
+Wire Wire Line
+	6300 3050 6550 3050
+Connection ~ 6550 3050
+$Comp
+L Device:C C5
+U 1 1 5F6E4EEB
+P 6750 4700
+F 0 "C5" V 6498 4700 50  0000 C CNN
+F 1 "0.22uF" V 6589 4700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6788 4550 50  0001 C CNN
+F 3 "~" H 6750 4700 50  0001 C CNN
+	1    6750 4700
+	0    1    1    0   
+$EndComp
+Text HLabel 7500 3650 2    50   Input ~ 0
+OUT1+
+Text HLabel 7500 3850 2    50   Input ~ 0
+OUT1-
+Text HLabel 7500 4600 2    50   Input ~ 0
+OUT2+
+Text HLabel 7500 4800 2    50   Input ~ 0
+OUT2-
+Text HLabel 6700 2650 0    50   Input ~ 0
+ST-BY
+Text HLabel 5800 3050 0    50   Input ~ 0
+MUTE
+Text HLabel 6600 3750 0    50   Input ~ 0
+IN1
+Text HLabel 6600 4700 0    50   Input ~ 0
+IN2
+$Comp
+L Amplifier_Audio:TDA7266 U1
+U 1 1 60405162
+P 7200 3750
+F 0 "U1" H 7200 3475 50  0000 C CNN
+F 1 "TDA7266" H 7200 3384 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 7200 3750 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7266.pdf" H 7200 3750 50  0001 C CNN
+	1    7200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:TDA7266 U1
+U 2 1 604060A6
+P 7200 4700
+F 0 "U1" H 7200 5067 50  0000 C CNN
+F 1 "TDA7266" H 7200 4976 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 7200 4700 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7266.pdf" H 7200 4700 50  0001 C CNN
+	2    7200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:TDA7266 U1
+U 3 1 60406CFF
+P 4800 3500
+F 0 "U1" H 4853 3546 50  0000 L CNN
+F 1 "TDA7266" H 4853 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 4800 3500 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7266.pdf" H 4800 3500 50  0001 C CNN
+	3    4800 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

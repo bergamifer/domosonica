@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Modulo completo"
+Date "2021-05-28"
+Rev ""
+Comp "Domosónica"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0106
+U 1 1 5F656C27
+P 3600 3800
+F 0 "#PWR0106" H 3600 3550 50  0001 C CNN
+F 1 "GND" H 3550 3600 50  0000 C CNN
+F 2 "" H 3600 3800 50  0001 C CNN
+F 3 "" H 3600 3800 50  0001 C CNN
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F6640EC
+P 4900 3650
+F 0 "C5" V 4648 3650 50  0000 C CNN
+F 1 "0.47uF" V 4739 3650 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4938 3500 50  0001 C CNN
+F 3 "~" H 4900 3650 50  0001 C CNN
+	1    4900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F6E4EEB
+P 4900 4600
+F 0 "C6" V 4648 4600 50  0000 C CNN
+F 1 "0.47uF" V 4739 4600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4938 4450 50  0001 C CNN
+F 3 "~" H 4900 4600 50  0001 C CNN
+	1    4900 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 60811167
+P 5950 5100
+F 0 "C9" H 5750 5150 50  0000 L CNN
+F 1 "470uF" H 5650 5000 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" H 5988 4950 50  0001 C CNN
+F 3 "~" H 5950 5100 50  0001 C CNN
+	1    5950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 60813E8C
+P 5950 5250
+F 0 "#PWR0108" H 5950 5000 50  0001 C CNN
+F 1 "GND" H 5955 5077 50  0000 C CNN
+F 2 "" H 5950 5250 50  0001 C CNN
+F 3 "" H 5950 5250 50  0001 C CNN
+	1    5950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C16
+U 1 1 6081DC96
+P 6500 4650
+F 0 "C16" H 6300 4700 50  0000 L CNN
+F 1 "470uF" H 6200 4550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" H 6538 4500 50  0001 C CNN
+F 3 "~" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C19
+U 1 1 6081F84E
+P 6050 3650
+F 0 "C19" H 5850 3700 50  0000 L CNN
+F 1 "470uF" H 5750 3550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" H 6088 3500 50  0001 C CNN
+F 3 "~" H 6050 3650 50  0001 C CNN
+	1    6050 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 4650 7150 4650
+Wire Wire Line
+	6200 3650 6450 3650
+Wire Wire Line
+	5050 3650 5200 3650
+Wire Wire Line
+	5050 4600 5550 4600
+Wire Wire Line
+	5550 4600 5550 4650
+Wire Wire Line
+	5800 3650 5900 3650
+Wire Wire Line
+	6150 4650 6350 4650
+NoConn ~ 5200 3750
+NoConn ~ 5550 4750
+$Comp
+L power:GNDPWR #PWR0138
+U 1 1 609C6653
+P 3700 3800
+F 0 "#PWR0138" H 3700 3600 50  0001 C CNN
+F 1 "GNDPWR" H 3704 3646 50  0000 C CNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "" H 3700 3750 50  0001 C CNN
+	1    3700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3800 3700 3800
+Connection ~ 3600 3800
+Connection ~ 3700 3800
+$Comp
+L power:+12V #PWR0141
+U 1 1 609DD465
+P 3600 3200
+F 0 "#PWR0141" H 3600 3050 50  0001 C CNN
+F 1 "+12V" H 3615 3373 50  0000 C CNN
+F 2 "" H 3600 3200 50  0001 C CNN
+F 3 "" H 3600 3200 50  0001 C CNN
+	1    3600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3200 5500 3350
+Wire Wire Line
+	5500 3200 5600 3200
+Wire Wire Line
+	5600 3200 5600 3350
+Text HLabel 4750 3650 0    50   Input ~ 0
+LIN
+Text HLabel 4750 4600 0    50   Input ~ 0
+RIN
+Text HLabel 7150 4650 2    50   Input ~ 0
+ROUT
+Text HLabel 6450 3650 2    50   Input ~ 0
+LOUT
+$Comp
+L Amplifier_Audio:TDA7496 U1
+U 3 1 607EBDDC
+P 3700 3500
+F 0 "U1" H 3758 3546 50  0000 L CNN
+F 1 "TDA7496" H 3758 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 3700 3500 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7297.pdf" H 3700 3500 50  0001 C CNN
+	3    3700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:TDA7496 U1
+U 2 1 607E96A6
+P 5850 4650
+F 0 "U1" H 5850 5017 50  0000 C CNN
+F 1 "TDA7496" H 5850 4926 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 5850 4650 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7297.pdf" H 5850 4650 50  0001 C CNN
+	2    5850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Audio:TDA7496 U1
+U 1 1 607E6C76
+P 5500 3650
+F 0 "U1" H 5500 3375 50  0000 C CNN
+F 1 "TDA7496" H 5500 3284 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 5500 3650 50  0001 C CIN
+F 3 "http://www.st.com/resource/en/datasheet/tda7297.pdf" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3200
+Wire Wire Line
+	5300 3200 5500 3200
+$Comp
+L power:GND #PWR0143
+U 1 1 609EB816
+P 5300 3200
+F 0 "#PWR0143" H 5300 2950 50  0001 C CNN
+F 1 "GND" H 5305 3027 50  0000 C CNN
+F 2 "" H 5300 3200 50  0001 C CNN
+F 3 "" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3550 5100 3550
+Text HLabel 6500 2550 2    50   Input ~ 0
+VOL
+Wire Wire Line
+	5100 2550 5100 3550
+Wire Wire Line
+	5100 2550 6500 2550
+$EndSCHEMATC

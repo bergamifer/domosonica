@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Modulo-completo-rescue)(type Legacy)(uri ${KIPRJMOD}/Modulo-completo-rescue.lib)(options "")(descr ""))
+)
